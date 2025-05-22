@@ -23,8 +23,7 @@ public class Tractor implements IMachine {
 		}else if (!isEngineOn) System.out.println("El tractor no está en marcha");
 		else if (isMaintenance) System.out.println("El tractor está en mantenimiento no se puede poner en marcha");
 		else if (isMoving) System.out.println("El tractor está en marcha");
-		else if (isBackwards) System.out.println("El tractor está en marcha, primero detenga el tractor");
-		else System.out.println("El tractor ya está en marcha");
+		else System.out.println("El tractor va marcha atrás, primero detenga el tractor");
 	}
 
 	public void backward() {
